@@ -1,62 +1,218 @@
-# 🤖 Codle AI Platform
+# 🤖 Codle AI
 
-A premium AI developer platform built with Python + Gradio. Explain, translate, visualize, and analyze code with a polished dark UI.
+> **AI-Powered Coding Mentor & Polyglot Code Translator**
 
-## Features
+Codle AI is a premium AI-powered developer platform built with **Python**, **Gradio**, and the **Hugging Face Inference API**. It helps developers understand, translate, and analyze code through an elegant glassmorphic interface with interactive visualizations.
 
-| Tab | Feature |
-|-----|---------|
-| 🔍 Explain | AI code explanation with bug detection, complexity analysis, ELI5 mode |
-| 🔄 Translate | AI code translator across 9 languages with split-view output |
-| 📈 Complexity | Animated complexity dashboard with O() badges and growth curves |
+---
 
-## Setup
+## ✨ Features
+
+### 🔍 AI Code Explanation
+- AI-powered code explanations
+- Bug detection
+- Time & Space complexity analysis
+- Explain Like I'm 10 (ELI5) mode
+- Beautiful markdown reports
+
+### 🔄 Code Translation
+Translate code between multiple programming languages:
+
+- Python
+- JavaScript
+- TypeScript
+- Java
+- C
+- C++
+- C#
+- Go
+- Rust
+
+Each translation includes:
+- Converted code
+- Translation explanation
+- Key language differences
+- Optimization suggestions
+
+### 📈 Complexity Analyzer
+- Automatic Time Complexity detection
+- Space Complexity analysis
+- Complexity Class identification
+- Interactive Big-O visualization
+- Animated complexity dashboard
+
+### 🎨 Premium UI
+- Neon Aurora Dark Theme
+- Glassmorphism design
+- Interactive particle background
+- Keyboard shortcuts
+- Command palette
+- Toast notifications
+- Smooth animations
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Language | Python |
+| UI Framework | Gradio |
+| AI | Hugging Face Inference API |
+| Styling | HTML5 + CSS3 |
+| Frontend | JavaScript |
+| Visualization | HTML5 Canvas |
+| Environment | python-dotenv |
+
+---
+
+# 📁 Project Structure
+
+```
+codle_ai/
+│
+├── app.py
+├── utils.py
+├── prompts.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── assets/
+│   ├── styles.css
+│   ├── codle.js
+│   └── logo.png
+│
+└── _verify.py
+```
+
+---
+
+# 🚀 Installation
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/prajju661/codle_ai.git
+cd codle_ai
+```
+
+---
+
+## 2. Create a virtual environment
+
+### Windows
 
 ```powershell
-# 1. Create a virtual environment (if not already created)
 python -m venv venv
-
-# 2. Install dependencies in the virtual environment
-.\venv\Scripts\pip install -r requirements.txt
-
-# 3. Configure your HF token
-# Edit .env and replace the placeholder:
-#   HF_TOKEN=hf_your_token_here
-
-# 4. Run the app
-.\venv\Scripts\python.exe app.py
+.\venv\Scripts\activate
 ```
 
-## Project Structure
+### Linux / macOS
 
-```
-code_explainer/
-├── app.py              # Main Gradio application
-├── prompts.py          # All AI prompt builders
-├── utils.py            # Inference engine (secure, token-safe)
-├── .env                # Your HF_TOKEN (never commit this)
-├── .gitignore
-├── requirements.txt
-├── assets/
-│   ├── logo.png
-│   ├── styles.css      # Full premium dark theme
-│   └── codle.js        # Particles, flow viz, chart, toasts, shortcuts
-└── README.md
+```bash
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-## Security
+---
 
-- `HF_TOKEN` is loaded only from the environment/`.env` file
-- Never accepted from UI inputs or passed through Gradio state
-- Never logged, printed, or returned to the frontend
-- App aborts at startup if token is missing
+## 3. Install dependencies
 
-## Keyboard Shortcuts
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Configure Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+HF_TOKEN=hf_your_huggingface_token
+```
+
+> **Important**
+>
+> Never commit your `.env` file to GitHub.
+
+---
+
+## 5. Run the application
+
+```bash
+python app.py
+```
+
+The application will start locally at:
+
+```
+http://127.0.0.1:7860
+```
+# 🔐 Security
+
+- HF_TOKEN is never hardcoded
+- Token is loaded securely from environment variables
+- No secrets are exposed to the frontend
+- No secrets are logged
+- Application validates configuration before startup
+
+---
+
+# ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl+Enter` | Analyze code |
-| `Ctrl+K` | Clear editor |
-| `Ctrl+S` | Download markdown report |
-| `Ctrl+Shift+C` | Copy report to clipboard |
-| `Ctrl+/` | Open command palette |
+| Ctrl + Enter | Analyze Code |
+| Ctrl + K | Clear Editor |
+| Ctrl + S | Export Markdown Report |
+| Ctrl + Shift + C | Copy Report |
+| Ctrl + / | Open Command Palette |
+
+---
+
+# 📷 Screenshots
+
+You can add screenshots here after deployment.
+
+Example:
+
+```
+screenshots
+
+home
+explain
+translate
+complexity
+```
+
+---
+
+# 📌 Supported Languages
+
+- Python
+- JavaScript
+- TypeScript
+- Java
+- C
+- C++
+- C#
+- Go
+- Rust
+
+---
+
+# 👩‍💻 Author
+
+** Srisailam Prajvalitha **
+
+GitHub:
+https://github.com/prajju661
+huggung face:
+
+---
+
+## ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
