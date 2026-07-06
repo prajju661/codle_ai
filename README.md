@@ -170,7 +170,7 @@ http://127.0.0.1:7860
 | Ctrl + Shift + C | Copy Report |
 | Ctrl + / | Open Command Palette |
 
-```
+
 screenshots
 
 home<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cd17b121-047c-4d37-8f3d-fa7b9e541eff" />
@@ -185,7 +185,7 @@ translate<img width="1920" height="1020" alt="image" src="https://github.com/use
 complexity<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2692df3b-40b7-40a9-b747-0d64707ef8f3" />
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/55ce3229-5c83-4274-9098-c0f026c488e2" />
 
-```
+
 
 ---
 
