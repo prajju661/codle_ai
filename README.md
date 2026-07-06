@@ -170,21 +170,21 @@ http://127.0.0.1:7860
 | Ctrl + Shift + C | Copy Report |
 | Ctrl + / | Open Command Palette |
 
----
-
-# 📷 Screenshots
-
-You can add screenshots here after deployment.
-
-Example:
-
 ```
 screenshots
 
-home
-explain
-translate
-complexity
+home<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/cd17b121-047c-4d37-8f3d-fa7b9e541eff" />
+
+explain<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c039179c-9e87-41f5-9633-463e3b3b4e3a" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5ec9db5f-ec6f-4ba7-861b-159a969195bb" />
+
+translate<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2f727efa-fb04-4670-8185-5f6cc30551e7" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b6f26684-53c1-4d31-8404-9c6ddd3666fd" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/51172b91-a6d1-40a1-9328-05202ecbc990" />
+
+complexity<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2692df3b-40b7-40a9-b747-0d64707ef8f3" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/55ce3229-5c83-4274-9098-c0f026c488e2" />
+
 ```
 
 ---
@@ -209,7 +209,7 @@ complexity
 
 GitHub:
 https://github.com/prajju661
-huggung face:
+huggung face:https://huggingface.co/spaces/prajvalitha/CODLE_AI
 
 ---
 
